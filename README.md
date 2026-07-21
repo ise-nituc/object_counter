@@ -164,7 +164,11 @@ counter = ObjectCounter(model_path="yolov8n.pt")
 
 独自学習モデルを使う場合は、その `.pt` または `.onnx` ファイルを `src` に置き、同じ箇所のファイル名を変更してください。独自モデルではクラス数やクラスIDが COCO と異なることがあるため、入力可能範囲の処理もモデルに合わせて変更する必要があります。
 
-## 6. ディレクトリ構成
+## 6. 参考
+
+- 人物検出モデル: [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+
+## 7. ディレクトリ構成
 
 ```text
 object-counter/
