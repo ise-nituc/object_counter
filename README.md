@@ -166,7 +166,7 @@ counter = ObjectCounter(model_path="yolov8n.pt")
 
 ## 6. 参考
 
-- 人物検出モデル: [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+- 物体検出モデル: [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 
 ## 7. ディレクトリ構成
 
